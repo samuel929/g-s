@@ -1,0 +1,27 @@
+.not-found{
+    background-image: url('../img/G&S-4042x.png');
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+
+    .not-font-size{
+        color:white;
+       font-size:50px;
+    }
+
+    .btn-not-found-display{
+     display:flex;
+     
+    }
+    
+
+    .row-alignment{
+        position:relative;
+        top:40%;
+    }
+
+    .button-div-container{
+        margin:10px;
+    }
+}

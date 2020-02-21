@@ -1,0 +1,20 @@
+.page-header .header-small {
+    height: 65vh;
+    min-height: 65vh;
+
+}
+
+.header-filter {
+    position: relative;
+}
+.page-header {
+    background-image: url('./Rectangle88.png');
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}

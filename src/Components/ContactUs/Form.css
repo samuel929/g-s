@@ -1,0 +1,14 @@
+.message-color{
+    color:#213B71;
+    margin:10px;
+}
+
+
+.form-control{
+    border:none;
+    border-bottom:1px solid #989899;
+}
+
+label{
+    color:#989899;
+}
