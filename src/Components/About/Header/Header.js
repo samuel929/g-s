@@ -8,6 +8,7 @@ export default function Header() {
           <div className="col-md-12 column">
             <div className="py-1 position-relative">
                <h1 style={{color:'white',paddingLeft:'200px'}}>ABOUT US</h1>
+               
             </div>
           </div>
         </div>
@@ -15,3 +16,5 @@ export default function Header() {
     </div>
   );
 }
+
+

@@ -30,6 +30,16 @@
     max-width:100%;
 }
 
+@media only screen and (max-width: 576px) { 
+    .position-relative {
+        position: relative !important;
+        background-color: #213B71;
+        width:400px;
+        max-width:100%;
+    }
+
+ }
+
 .page-headers .bgColor {
     background-color: #213B71;
     position: absolute;
