@@ -4,6 +4,7 @@ import pic2 from "./Infastructure.png";
 import pic3 from "./sea.png";
 import Button from "../Re-usable/Button/BlueButton";
 import Header from "./header/index";
+import Slide from 'react-reveal/Slide';
 import "./Project.scss";
 export default function Projects() {
   return (
@@ -44,6 +45,7 @@ export default function Projects() {
 
         <div className="conatiner">
           <div className="row">
+          <Slide left cascade>
             <div className="col-md-12">
               <div className="container">
                 <div className="row d-flex align-items-center">
@@ -305,7 +307,7 @@ export default function Projects() {
                 <hr />
               </div>
             </div>
-
+            </Slide>
             <div className="container" style={{ padding: "50px" }}>
               <div className="row ">
                 <div className="col">

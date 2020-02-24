@@ -2,6 +2,8 @@ import React from "react";
 import "./index.scss";
 import Header from "./header/index";
 import ReUse from "../Re-usable/bottom-nav-three/index";
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 export default function index() {
   return (
     <div>
@@ -36,10 +38,12 @@ export default function index() {
                 <div className="container">
                   <div className="row">
                     <div className="col-md-10 mx-auto text-center">
+                      <Zoom>
                       <p className="text-lead">
                         When you want a business partner that speaks your
                         language G&S can help.
                       </p>
+                      </Zoom>
                     </div>
                   </div>
                 </div>
@@ -47,8 +51,9 @@ export default function index() {
             </div>
           </div>
         </div>
-
-        <div className="row clearfix no-gutters container-padding">
+      </div>
+      <Fade left cascade>
+      <section className="row clearfix no-gutters container-padding">
           <div className="col-md-12 column">
             <div className="bg-white pt-0 marketDetails">
               <div className="container">
@@ -82,8 +87,7 @@ export default function index() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </section>
 
       <section className="row clearfix no-gutters paragraph-2-color">
         <div className="col-md-12 column">
@@ -176,6 +180,7 @@ export default function index() {
           </div>
         </div>
       </section>
+      </Fade>
 
       <ReUse />
     </div>

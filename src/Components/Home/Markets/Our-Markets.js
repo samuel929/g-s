@@ -6,7 +6,7 @@ import art2 from "./artboard-12.svg";
 import art3 from "./artboard-13.svg";
 import art4 from "./artboard-14.svg";
 import art5 from "./artboard-15.svg";
-
+import Zoom from 'react-reveal/Zoom';
 import { Link } from "react-router-dom";
 
 export default function Section3() {
@@ -16,7 +16,9 @@ export default function Section3() {
         <h1 className="aligning-text" >OUR MARKETS</h1>
 
         <div className="row row-container row-padding">
+        <Zoom  cascade>
           <div className="col-6 col-md text-center">
+          
             <div className="icon-round">
               <span>
                 <img src={art1} className="img-rounded img-fluid" />
@@ -62,7 +64,9 @@ export default function Section3() {
               <h5 className="pt-md-5 pb-5 pb-md-0">Water</h5>
             </div>
           </div>
+          </Zoom>
         </div>
+        
 
         <div className="row btn-container-home">
           <Link to="/markets">

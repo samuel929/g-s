@@ -4,14 +4,14 @@ import art2 from "./artboard-2.svg";
 import art3 from "./artboard-3.svg";
 import art4 from "./artboard-4.svg";
 import art5 from "./artboard-5.svg";
-
+import Fade from 'react-reveal/Fade';
 import "./Tabs.scss";
 
 import leader from "./LeadershipArray/leadArray";
 import BlueButton from "../../Re-usable/Button/BlueButton";
 import CircleData from "./CirclesArray/CirclesArray";
 import Picture from "../../img/Picture1-images/Picture1.png";
-
+import Zoom from 'react-reveal/Zoom';
 import valueCircle from "./ValueCircleArray/ValueCircleArray";
 
 export default function Section2() {
@@ -53,6 +53,7 @@ export default function Section2() {
                         <div className="row">
                           <div className="col-md-10 mx-auto text-center">
                             <div>
+                              <Fade left>
                               <p className="leads">
                                 G&S has a clear and effective leadership
                                 structure that drives continuous improvement in
@@ -60,6 +61,7 @@ export default function Section2() {
                                 operating business units; Maintenance and
                                 Construction.
                               </p>
+                              </Fade>
                             </div>
                           </div>
                         </div>
@@ -85,7 +87,7 @@ export default function Section2() {
                     </div>
                   </div>
                 </div>
-
+               <Zoom>
                 <div className="row py-1">
                   <div className="col-12 col-md-10 mx-auto">
                     <div className="row py-4">
@@ -138,6 +140,7 @@ export default function Section2() {
                     </div>
                   </div>
                 </div>
+                </Zoom>
               </div>
             </div>
 
@@ -150,6 +153,7 @@ export default function Section2() {
               </h1>
 
               <div className="container aligning-text">
+                <Fade left cascade>
                 {leader.map(item => (
                   <div className="row ">
                     <div className="col-md-12 flexing-column">
@@ -174,6 +178,7 @@ export default function Section2() {
                     </div>
                   </div>
                 ))}
+                </Fade>
               </div>
             </div>
           </div>
@@ -189,12 +194,14 @@ export default function Section2() {
                   <div className="container">
                     <div className="row">
                       <div className="col-md-10 mx-auto text-center">
+                        <Fade right>
                         <p className="lead">
                           G&S has a clear and effective leadership structure
                           that drives continuous improvement in all areas of our
                           company, across our two operating business units;
                           Maintenance and Construction.
                         </p>
+                        </Fade>
                       </div>
                     </div>
                   </div>
@@ -205,9 +212,12 @@ export default function Section2() {
             <section className=" m-3  container-height">
               <div className="container">
                 <div className="row" style={{ padding: "50px" }}>
+                  <Fade left>
                   <div className="col-md-6" style={{ paddingLeft: "35px" }}>
                     <img src={Picture} className="img-fluid img-box" />
                   </div>
+                  </Fade>
+                  <Fade right>
                   <div className="col-md-6 " style={{ paddingLeft: "50px" }}>
                     <div style={{ marginLeft: "40px", marginTop: "90px" }}>
                       <p style={{ color: "#213B71", fontSize: "13px" }}>
@@ -233,6 +243,7 @@ export default function Section2() {
                       </div>
                     </div>
                   </div>
+                  </Fade>
                 </div>
               </div>
             </section>
@@ -262,6 +273,7 @@ export default function Section2() {
                 </div>
 
                 <div className="row row-container row-padding">
+                  <Fade left cascade>
                   <div className="col-6 col-md text-center">
                     <div className="icon-round">
                       <span>
@@ -327,6 +339,7 @@ export default function Section2() {
                       </h5>
                     </div>
                   </div>
+                  </Fade>
                 </div>
               </div>
             </div>
@@ -335,6 +348,7 @@ export default function Section2() {
               <div className="container">
                 <div className="row" style={{ padding: "50px" }}>
                   <div className="col-md-6">
+                    <Fade left>
                     <div style={{ marginLeft: "40px", marginTop: "90px" }}>
                       <p style={{ color: "#213B71", fontSize: "13px" }}>
                         <b>CULTURE</b>
@@ -363,9 +377,12 @@ export default function Section2() {
                         <BlueButton>CAREERS</BlueButton>
                       </div>
                     </div>
+                    </Fade>
                   </div>
                   <div className="col-md-6">
+                    <Fade right>
                     <img src={Picture} className="img-fluid img-box" />
+                    </Fade>
                   </div>
                 </div>
               </div>

@@ -2,7 +2,7 @@ import React from "react";
 import pic1 from "./BG-IMAGE3.png";
 import pic2 from "./BG-IMAGE2.png";
 import pic3 from "./BG-IMAGE.png";
-
+import Zoom from 'react-reveal/Zoom';
 import Button from "../Button/BlueButton";
 import "./index.scss";
 export default function index() {
@@ -16,6 +16,7 @@ export default function index() {
                 <div className="col-md-12">
                   <h2 className="h3 ">Featured Projects</h2>
                   <div className="row card-blog">
+                    <Zoom>
                     <div className="col-md-4">
                       <div>
                         <img src={pic3} className="card-img-top img-raised" />
@@ -100,6 +101,7 @@ export default function index() {
                         </div>
                       </div>
                     </div>
+                    </Zoom>
                   </div>
                 </div>
               </div>

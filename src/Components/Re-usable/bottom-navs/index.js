@@ -2,6 +2,7 @@ import React from "react";
 import "./index.scss";
 import YellowButton from "../Button/YellowButton";
 import GreenButton from "../Button/GreenButton";
+import Zoom from 'react-reveal/Zoom';
 import { Link } from "react-router-dom";
 export default function index() {
   return (
@@ -13,6 +14,7 @@ export default function index() {
               <div className="col " style={{ margin: "5px" }}>
                 <div class="card-bodies">
                   <div class="card-body">
+                    <Zoom>
                     <div
                       style={{
                         paddingLeft: "50px",
@@ -35,6 +37,7 @@ export default function index() {
                         <YellowButton>READ MORE</YellowButton>
                       </Link>
                     </div>
+                    </Zoom>
                   </div>
                 </div>
               </div>
@@ -42,6 +45,7 @@ export default function index() {
               <div className="col " style={{ margin: "5px" }}>
                 <div class="card-bodies-2">
                   <div class="card-body">
+                    <Zoom>
                     <div
                       style={{
                         paddingLeft: "50px",
@@ -62,6 +66,7 @@ export default function index() {
                         <GreenButton>VIEW ABOUT US</GreenButton>
                       </Link>
                     </div>
+                    </Zoom>
                   </div>
                 </div>
               </div>

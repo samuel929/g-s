@@ -4,8 +4,12 @@ import Layer1 from "../../img/Layer-27.png";
 import Khumani from "../../img/Khumani.jpg";
 import Renald from "../../img/Renald.jpg";
 import BlueButton from "../../Re-usable/Button/BlueButton";
+import Zoom from 'react-reveal/Zoom';
+
+
 export default function Section4() {
   return (
+    <Zoom>
     <section>
       <div className="container featured-project-padding">
         <h1 className="m-4 text-center">FEATURED PROJECTS</h1>
@@ -147,5 +151,6 @@ export default function Section4() {
         </div>
       </div>
     </section>
+    </Zoom>
   );
 }

@@ -13,10 +13,13 @@ import Whiteurl from "../../img/blog-layout/whiteurl.png";
 import clock from "../../img/blog-layout/clock.png";
 import GreyHeart from "../../img/blog-layout/greyheart.png";
 import GreyComment from "../../img/blog-layout/greycoment.png";
+import Bounce from 'react-reveal/Bounce';
 export default function body() {
   return (
     <div className="news-height">
+      <Bounce left cascade>
       <div className="container">
+        
         <div class="card-columns" style={{ marginTop: "100px" }}>
           <div class="card card-box-shadow">
             <img
@@ -235,9 +238,13 @@ export default function body() {
             </div>
           </div>
         </div>
-        <div></div>
+        
+        <div>
+          </div>
       </div>
+      </Bounce>
       <div>
+
         <nav aria-label="Page navigation example">
           <ul class="pagination">
             <li class="page-item">

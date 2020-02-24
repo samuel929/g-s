@@ -1,6 +1,7 @@
 import React from "react";
 import "./NotFound.scss";
 import BlueButton from "../Re-usable/Button/BlueButton";
+import Zoom from 'react-reveal/Zoom';
 import { Link } from "react-router-dom";
 
 export default function Page404() {
@@ -9,6 +10,7 @@ export default function Page404() {
       <div className="not-found">
         <div className="container row-alignment">
           <div className="row ">
+            <Zoom >
             <div className="col-sm-6">
               <p className="not-font-size">
                 Hmm… Looks like something went wrong
@@ -27,6 +29,7 @@ export default function Page404() {
                 </div>
               </div>
             </div>
+            </Zoom>
           </div>
         </div>
       </div>

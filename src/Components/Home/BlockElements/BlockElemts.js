@@ -3,6 +3,7 @@ import "./Block-elements.scss";
 import YellowButton from "../../Re-usable/Button/YellowButton";
 import GreenButton from "../../Re-usable/Button/GreenButton";
 import BlueButton from "../../Re-usable/Button/BlueButton";
+import Fade from 'react-reveal/Fade';
 import { Link } from "react-router-dom";
 
 export default function Section2() {
@@ -13,6 +14,7 @@ export default function Section2() {
           <div className="container">
             <div className="row">
               <div className="col-md-10 mx-auto text-center">
+                <Fade right>
                 <p className="lead-2">
                   From electrical and mechanical component overhauls for surface
                   and underground equipment through to billion-dollar mine and
@@ -21,12 +23,14 @@ export default function Section2() {
                   from construction, through maintenance and optimization to
                   final decommissioning and deconstruction.
                 </p>
+                </Fade>
               </div>
             </div>
           </div>
         </div>
 
         <div className="row row-margin-home">
+          <Fade left cascade>
           <div className="col-md-4">
             <div className="parent">
               <div className="card--yellow " />
@@ -45,7 +49,7 @@ export default function Section2() {
               </div>
             </div>
           </div>
-
+         
           <div className="col-md-4">
             <div className="parent">
               <div className=" card--green" />
@@ -81,6 +85,7 @@ export default function Section2() {
               </div>
             </div>
           </div>
+          </Fade>
         </div>
       </div>
     </section>

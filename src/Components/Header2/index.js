@@ -13,8 +13,10 @@ export default function index() {
       <nav
         className="navbar navbar-color-on-scroll fixed-top navbar-expand-lg bg-light navbar-transparent"
         color-on-scroll="100" 
+        style={{transition:'1s ease'}}
       >
         <div className="container">
+          
           <div className="navbar-translate">
             <Link to="/" className="navbar-brand">
               <img src={GSEngineer} />
@@ -42,11 +44,7 @@ export default function index() {
               <br />
             </button>
           </div>
-          <div className="topNav">
-            <Link>
-              <img src={DRA} className="img-fluid" />
-            </Link>
-          </div>
+          
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item mx-2 li-header-color">

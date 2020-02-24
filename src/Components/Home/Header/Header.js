@@ -1,6 +1,6 @@
 import React from "react";
 import "./header-home.scss";
-
+import Fade from 'react-reveal/Fade';
 
 export default function Header() {
   
@@ -25,6 +25,7 @@ export default function Header() {
                           <div className="container">
                             <div className="row">
                               <div className="col-md-8 mr-auto text-left">
+                                <Fade left>
                                 <div className="header-relative py-1">
                                  <div style={{backgroundColor:'#213B71',position:'relative',right:'207px',height:'120px'}}>
                                     <h1 style={{color:'white',position:'absolute',right:'17px',top:'30px'}}>WELCOME</h1>
@@ -42,6 +43,7 @@ export default function Header() {
                                     <br /> the Earth’s surface down.
                                   </p>
                                 </div>
+                                </Fade>
                               </div>
                             </div>
                           </div>

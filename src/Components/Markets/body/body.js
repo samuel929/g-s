@@ -2,7 +2,8 @@ import React from 'react'
 import ButtonBlue from '../../Re-usable/Button/BlueButton';
 import MarketsCard from '../MarketsFirstArray/MarketsArray';
 import BottomSection from '../MarketsFirstArray/MarketArray';
-
+import Slide from 'react-reveal/Slide';
+import Bounce from 'react-reveal/Bounce';
 import {Link} from 'react-router-dom';
 import './body.scss';
 
@@ -13,17 +14,19 @@ export default function body() {
 
                  <div className="row justify-content-center m-3" style={{padding:'50px'}}>
                      <div className="col-sm-12 container-div" >
+                     <Slide right>
                      <p className="markets-p">
                          We offer a complete life-of-project solution that encompasses structural,
                       mechanical, piping and electrical instrumentation (SMP&EI),
                        manufacturing, engineering and design disciplines, 
                      along with the ability to deliver all process and non-process infrastructure, 
                      plant and equipment for surface and underground mining operations.</p>
-                    
+                     </Slide>
                      </div>
                  </div>
                     
                     <div className="row m-3" style={{display:'flex',justifyContent:'center'}}>
+                        <Bounce left>
                         {
                             MarketsCard.map(item=>(
                                 <div className="col-sm-4 " >
@@ -40,12 +43,13 @@ export default function body() {
                             </div>
                             ))
                         }
-                        
+                        </Bounce>
                     </div>
 
                    
                          <div className="container" >
-                                <div className="row">                                                                    
+                                <div className="row"> 
+                                <Bounce right>                                                                   
                                         {
                                             BottomSection.map(item=>(
                                                 <div className="col-6  bottom-cards " >
@@ -62,6 +66,7 @@ export default function body() {
                                                 </div>
                                             ))
                                         }
+                                    </Bounce>
                                 </div>
                          </div>
 
