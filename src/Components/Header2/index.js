@@ -4,11 +4,15 @@ import GSEngineer from "./logo.svg";
 import DRA from "./dra-global-group.svg";
 import "./index.scss";
 export default function index() {
+  
+
+
+
   return (
     <div>
       <nav
         className="navbar navbar-color-on-scroll fixed-top navbar-expand-lg bg-light navbar-transparent"
-        color-on-scroll="100"
+        color-on-scroll="100" 
       >
         <div className="container">
           <div className="navbar-translate">

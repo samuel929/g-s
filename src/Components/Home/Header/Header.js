@@ -1,6 +1,9 @@
 import React from "react";
 import "./header-home.scss";
+
+
 export default function Header() {
+  
   return (
     <div className="home-carousel">
       <div className="grid-section">
@@ -22,9 +25,11 @@ export default function Header() {
                           <div className="container">
                             <div className="row">
                               <div className="col-md-8 mr-auto text-left">
-                                <div className="position-relative py-1">
-                                  <h1 className="welcome-h1">Welcome</h1>
-                                  <span className="bgColor"></span>
+                                <div className="header-relative py-1">
+                                 <div style={{backgroundColor:'#213B71',position:'relative',right:'207px',height:'120px'}}>
+                                    <h1 style={{color:'white',position:'absolute',right:'17px',top:'30px'}}>WELCOME</h1>
+                                  <span className="bgColor-span"></span>
+                                  </div>
                                   <p
                                     style={{
                                       fontSize: "32px",

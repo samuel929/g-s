@@ -14,25 +14,30 @@
     margin: 0;
     padding: 0;
     border: 0;
+    min-width: 15rem;
     display: flex;
     -webkit-box-align: center;
     align-items: center;
 }
 
 
-.page-headers h1:after{
-    content: "";
-    background-image: url('./img/ribbon_edge.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    min-width: 15rem;
-    bottom: 0;
-    top: 0;
-    width: 15rem;
-    position: absolute;
-    margin: .25rem 0;
-}
+
 
 .position-relative {
     position: relative !important;
+    background-color: #213B71;
+    width:500px;
+    max-width:100%;
+}
+
+.page-headers .bgColor {
+    background-color: #213B71;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    margin: .25rem 0;
+    z-index: -1;
 }

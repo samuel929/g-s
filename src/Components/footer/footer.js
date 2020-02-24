@@ -66,8 +66,8 @@ const Footer = () => {
               <li>
                 <FontAwesomeIcon icon={['fab','facebook']} color="#ffffff" size="lg" />
               </li>
-              <li>
-              <FontAwesomeIcon icon={['fab','linkedin']} color="#ffffff" size="lg" />
+              <li>   
+              <FontAwesomeIcon icon={['fab','linkedin-in']} color="#ffffff" size="lg" />
               </li>
               <li>
               <FontAwesomeIcon icon={['fab','youtube']} color="#ffffff" size="lg" />

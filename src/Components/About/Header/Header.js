@@ -7,11 +7,7 @@ export default function Header() {
         <div className="row clearfix no-gutters">
           <div className="col-md-12 column">
             <div className="py-1 position-relative">
-                <h1>
-                  About Us
-                  
-                </h1>
-              <span className="bgColor"></span>
+               <h1 style={{color:'white',paddingLeft:'200px'}}>ABOUT US</h1>
             </div>
           </div>
         </div>

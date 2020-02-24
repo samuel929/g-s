@@ -13,7 +13,7 @@ export default function Section3() {
   return (
     <div className=" b icons-section">
       <div className="container section-3-container-padding">
-        <h1 className="aligning-text">OUR MARKETS</h1>
+        <h1 className="aligning-text" >OUR MARKETS</h1>
 
         <div className="row row-container row-padding">
           <div className="col-6 col-md text-center">

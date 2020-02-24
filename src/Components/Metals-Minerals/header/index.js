@@ -8,7 +8,10 @@ export default function index() {
                   <div className="row clearfix no-gutters">
                         <div className="col-md-12 column">
                            <div className="metal-minerals metal-filter ">
-
+                           <div className="py-1 position-relative">
+                             <h1 style={{color:'white',paddingLeft:'200px'}}>METALS & MINERALS</h1>
+                           <span className="bgColor"></span>
+                           </div>
                            </div>
                          </div>
                   </div>
