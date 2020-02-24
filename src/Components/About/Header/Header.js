@@ -8,7 +8,7 @@ export default function Header() {
           <div className="col-md-12 column">
             <div className="py-1 position-relative">
                 <h1>
-                  "About Us"
+                  About Us
                   
                 </h1>
               <span className="bgColor"></span>

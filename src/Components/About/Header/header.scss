@@ -19,6 +19,20 @@
     align-items: center;
 }
 
+
+.page-headers h1:after{
+    content: "";
+    background-image: url('./img/ribbon_edge.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 15rem;
+    bottom: 0;
+    top: 0;
+    width: 15rem;
+    position: absolute;
+    margin: .25rem 0;
+}
+
 .position-relative {
     position: relative !important;
 }
