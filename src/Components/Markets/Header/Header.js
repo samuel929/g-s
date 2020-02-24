@@ -6,7 +6,7 @@ export default function Header() {
             <div className="grid-section">
                 <div className="row clearfix no-gutters">
                    <div className="col-md-12 column">
-                       <div className="page-header header-filter header-small">
+                       <div className="market-header headfit">
 
                        </div>
                    </div>

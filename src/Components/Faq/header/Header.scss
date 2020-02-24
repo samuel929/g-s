@@ -1,0 +1,20 @@
+.faq-header {
+    height: 65vh;
+    min-height: 65vh;
+
+}
+
+.header-filterer {
+    position: relative;
+}
+.faq-header {
+    background-image: url('../Faq.png');
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}

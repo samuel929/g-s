@@ -1,9 +1,17 @@
 import React from 'react'
-import Rect from '../Faq.png';
+import './Header.scss';
 export default function Header() {
     return (
-        <div>
-            <img src={Rect} className="img-fluid"/>
+       <div>
+            <div className="grid-section">
+                <div className="row clearfix no-gutters">
+                   <div className="col-md-12 column">
+                       <div className="faq-header header-filterer">
+
+                       </div>
+                   </div>
+                </div>
+            </div>
         </div>
     )
 }
